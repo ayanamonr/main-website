@@ -23,21 +23,25 @@ layout: default
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
-
-
+  
+  
+  
 <script>
 	$(document).ready(function(){
 		$("#myModal").modal('show');
 	});
 </script>
+  
+
 <style>
     .bs-example{
     	margin: 20px;
     }
 </style>
-<body>
+
+</div>
+
+
 <div class="bs-example">
     <div id="myModal" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
@@ -58,3 +62,5 @@ layout: default
         </div>
     </div>
 </div>
+
+<body>
