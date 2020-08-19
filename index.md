@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+<head> 
 ---
 layout: default
 ---
@@ -6,10 +9,7 @@ layout: default
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-
-
- 
+    
 <script>
 	$(document).ready(function(){
 		$("#myModal").modal('show');
@@ -23,9 +23,10 @@ layout: default
     	margin: 20px;
     }
 </style>
+</head>
 
-
-
+<body>
+    
 
 <div class="bs-example">
     <div id="myModal" class="modal fade" tabindex="-1">
@@ -68,3 +69,6 @@ layout: default
 </div>
 
 
+</body>
+
+</html>
