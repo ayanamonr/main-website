@@ -14,7 +14,6 @@ layout: default
 	$(document).ready(function(){
 		$("#myModal").modal('show');
 	});
-    onclick="$('#purchaseModal').modal('show');"
 </script>
   
 
